@@ -279,6 +279,7 @@ p {
 .link:link,
 .link:visited {
   text-decoration: none;
+  letter-spacing: 0.5px;
   color: var(--clr-text);
   font-weight: var(--fw-bold);
   border-bottom: 2px solid var(--clr-link);
@@ -395,12 +396,6 @@ p {
 
 .contact-item-content {
   gap: var(--sp-sm);
-}
-
-.contact-subheading {
-  margin-block-start: var(--sp-xsm);
-  /* padding-inline: 0.4rem; fix this!!! */
-  transition: all 200ms;
 }
 
 /* ======================= */

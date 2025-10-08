@@ -394,6 +394,10 @@ p {
   transform: translateY(-8px);
 }
 
+.contact-box-item p {
+  line-height: 1.75;
+}
+
 .contact-item-content {
   gap: var(--sp-sm);
 }
